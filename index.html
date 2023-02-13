@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <title>JP-Lesson 4-Forms</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <h1>Contact Form</h1>
+        </section>
+
+        <section class="main-table">
+
+            <table>
+                <form>
+                    <tr>
+                        <td class="data1">
+                            <label for="name">
+                                Name:
+                            </label>
+                        </td>
+                        <td><input type="text" id="name" placeholder="Enter your Name" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1">
+                            <label for="username">
+                                Username:
+                            </label>
+                        </td>
+                        <td><input type="text" id="username" placeholder="Enter your username" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1">
+                            <label for="password">
+                                Password:
+                            </label>
+                        </td>
+                        <td><input type="text" id="password" placeholder="Enter your password" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1">
+                            <label for="password2">
+                                Re-type Password:
+                            </label>
+                        </td>
+                        <td><input type="text" id="password2" placeholder="Enter your password" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1">
+                            <label for="gender">
+                                Gender:
+                            </label>
+                        </td>
+                        <td class="data2"><input type="radio" name="gender" value="male" id="male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" name="gender" value="female" id="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1">
+                            <label for="skills">
+                                Techi Skills:
+                            </label>
+                        </td>
+                        <td class="data2"><input type="checkbox" name="skills" value="html" id="html">
+                            <label for="html">HTML</label>
+
+                            <input type="checkbox" name="skills" value="css" id="css">
+                            <label for="html">CSS</label>
+
+                            <input type="checkbox" name="skills" value="javascript" id="javascript">
+                            <label for="html">JavaScript</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1"><label for="telnum">
+                                Phone Number:
+                            </label>
+                        </td>
+                        <td><input type="telnum" id="telnum" placeholder="Enter your phone number" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1"><label for="email">
+                                Email:
+                            </label>
+                        </td>
+                        <td><input type="email" id="email" placeholder="Enter your Email address" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="data1"><label for="college">
+                                College:
+                            </label>
+                        </td>
+                        <td><select name="college" id="college" class="selectList">
+                                <option value="college">Select a College</option> id="college" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="data1">
+                            <button type="submit">Submit</button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+    </div>
+    </section>
+</body>
+
+</html>
